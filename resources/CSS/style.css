@@ -1,0 +1,44 @@
+:root{
+  --mb-1: .5rem;
+  --mb-2: 1rem;
+  --mb-3: 1.5rem;
+}
+body{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: medium;
+}
+
+.image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.left-container{
+position: absolute;
+background-color : rgb(100, 100, 135);
+height: 150%;
+width:31%;
+text-align: left;
+align-items: left;
+justify-content: left;
+margin-left: 0%;
+margin-right: 31%;
+margin-top: 0%;
+margin-bottom: 0%;
+
+}
+
+.right-container{
+  position: absolute;
+  background-color : rgb(162, 162, 162);
+  height: 150%;
+  width:69%;
+  text-align: left;
+  align-items: right;
+  justify-content: right;
+  margin-left: 31%;
+  margin-right: 100%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
